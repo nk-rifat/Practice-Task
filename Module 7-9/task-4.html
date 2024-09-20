@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.9 Problem Task 4</title>
+    <style>
+        body{
+            margin: 50px 80px;
+        }
+        .burger{
+            display: flex;
+            margin-bottom: 40px;
+        }
+        .pizza{
+            display: flex;
+        }
+        .burger-img, .pizza-img{
+            height: 400px;
+            width: 550px;
+        }
+        .fast-food{
+            text-align: justify;
+            padding: 40px;
+            border-radius: 15px;
+            background-color: rgba(128, 128, 128, 0.055);
+        }
+        @media screen and (max-width:576px) {
+            body{
+                margin: 10px;
+            .burger{
+                flex-direction: column;
+            }
+            .pizza{
+                flex-direction: column;
+            }
+            .burger-img, .pizza-img{
+                height: 400px;
+                width: 365px; 
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <section class="burger">
+        <div>
+          <img class="burger-img" src="images/burger.jpg" alt="">
+        </div>
+        <div class="fast-food">
+          <h3>Burger</h3>
+          <p> A hamburger is a popular meal made by placing a grilled ground beef patty inside a bun. 
+
+          The origins of the hamburger are hotly  debated, with conflicting claims made by Wisconsin; Hamburg, Germany; Hamburg, New York; and Athens, Texas, among others. Regardless, it is quite certain that hamburgers have been around since the late nineteenth century.
+                
+          Hamburgers are quickly served and easily eaten. This convenience has made them a favorite food for generations of Americans. If not obtained from a grocer, it is served at diners and fast-food outlets and also sold in stalls at games, beaches, and other outdoor locales.</p>
+        </div>   
+    </section>
+    <section class="pizza">
+        <div>
+            <img class="pizza-img" src="images/pizza.jpg" alt="">
+        </div>
+        <div class="fast-food">
+            <h3>Pizza</h3>
+            <p>Pizza is a dish of Italian origin, made with an oven-baked, flat, generally round bread that is often covered with tomatoes or a tomato-based sauce and mozzarella cheese. Other toppings are added according to region, culture, or personal preference. Originating as a part of Italian cuisine, the dish has become popular in many different parts of the world, particularly the United States, where numerous varieties have been developed, pizza restaurant chains have flourished, and pizza has become a home delivery item as well as being available as a frozen food ready to bake at home.</p>
+        </div>
+    </section>
+</body>
+</html>

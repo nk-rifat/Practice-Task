@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.9 Problem Task 1</title>
+</head>
+<style>
+    .box-l{
+      height: 55rem;
+      background-color: yellowgreen; 
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+    .box-r{
+        background-color: yellow;
+        height: 55rem;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 400px auto;
+        border: 2px solid tomato;
+        gap: 20px;
+        
+    }
+    @media screen and (max-width:576px){
+        .container{
+            display: block;   
+        }
+        .box-l{
+            height: 10rem;
+        }
+        .box-r{
+            height: 45rem;
+            margin-top: 10px;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box-l">
+          <div>Left</div>
+       </div>
+       <div class="box-r">
+         <div>Right</div>
+       </div>
+    </div>
+</body>
+</html>
